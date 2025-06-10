@@ -46,7 +46,7 @@ Connectly is a full-featured social networking web application built using the *
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/connectly-social-network.git
+git clone https://github.com/jashwanthnani/connectly-social-network.git
 cd connectly-social-network
 
 # Install client and server dependencies
