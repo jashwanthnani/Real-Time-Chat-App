@@ -32,10 +32,6 @@ Connectly is a full-featured social networking web application built using the *
 
 ## 📸 Screenshots
 
-| Login Page | Feed Page | Profile |
-|------------|-----------|---------|
-| ![Login](https://user-images.githubusercontent.com/your-image-link/login.png) | ![Feed](https://user-images.githubusercontent.com/your-image-link/feed.png) | ![Profile](https://user-images.githubusercontent.com/your-image-link/profile.png) |
-
 ---
 
 ## 🚀 Getting Started
