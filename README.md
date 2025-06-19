@@ -1,55 +1,65 @@
-# Connectly - A Full Stack Social Network App
 
+# 💬 Real-Time Chat Application
 
-Connectly is a full-featured social networking web application built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js). It supports user authentication, post creation, liking, commenting, following users, and media uploads.
-
-> 🚀 Live Demo: [https://connectly-app.vercel.app](https://github.com/jashwanthnani)  
-> 📁 Backend Repo (if separate): [connectly-backend](https://github.com/jashwanthnani)
+A full-stack real-time chat application in development, designed for secure and seamless communication. This project uses **React.js** for the frontend, **Node.js**, **Express.js**, **MongoDB**, and **Socket.io** on the backend to enable instant messaging, typing indicators, and secure user sessions.
 
 ---
 
-## ✨ Features
+## 📌 Project Overview
 
-- 🔐 JWT-based Authentication (Login/Register)
-- 📝 Create & delete posts (with text + image)
-- ❤️ Like & comment on posts
-- 👥 Follow / unfollow other users
-- 📸 Upload profile pictures and post images
-- 📃 Responsive and clean UI (mobile-friendly)
-- ☁️ Fully deployed using Docker + Vercel / AWS
+The goal of this project is to create a modern real-time chat platform where users can:
+
+- Create an account and log in securely.
+- Search for other users to initiate a conversation.
+- Send and receive private messages in real-time.
+- See when the other person is typing.
+- Maintain chat history stored in a database.
+
+This project is under active development and currently in the planning/prototyping stage.
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Frontend             | Backend               | Database         | DevOps & Tools       |
-|----------------------|------------------------|------------------|----------------------|
-| React + Tailwind CSS | Node.js + Express.js   | MongoDB (Mongoose) | Docker, GitHub Actions |
-| Redux Toolkit        | JWT / Bcrypt.js (Auth) | Cloudinary (Image Uploads) | Vercel / Render / AWS |
+### 📦 Frontend
+- React.js (Vite or Create React App)
+- Axios (for API communication)
+- Socket.io-client (for WebSocket communication)
+- React Router DOM (for routing)
+- CSS/SCSS or TailwindCSS (UI styling)
+
+### ⚙️ Backend
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- Socket.io
+- JWT (JSON Web Tokens) for authentication
+- bcryptjs (for password hashing)
+- dotenv (environment variable management)
+- CORS and Helmet for security
 
 ---
 
-## 📸 Screenshots
+## 🔐 Planned Features
+
+- ✅ JWT-based user authentication
+- ✅ User registration and login with encryption
+- ✅ Real-time messaging using Socket.io
+- ✅ Typing indicators
+- ✅ User search functionality
+- ✅ Persistent chat history with MongoDB
+- ⏳ Online/offline user status (coming soon)
+- ⏳ Group chat support (planned)
+- ⏳ Profile pictures and theme customization
 
 ---
 
-## 🚀 Getting Started
+## 🧪 Installation Instructions
 
-### Prerequisites
+> ⚠️ This is a development-stage project. Setup steps are for contributors and developers only.
 
-- Node.js >= 16
-- MongoDB Atlas or local instance
-- Git
-
-### Installation
+### 1. Clone the Repository
 
 ```bash
-# Clone the repo
-git clone https://github.com/jashwanthnani/connectly-social-network.git
-cd connectly-social-network
-
-# Install client and server dependencies
-cd client
-npm install
-cd ../server
-npm install
+git clone https://github.com/jashwanthbavandlapalli/realtime-chat-app.git
+cd realtime-chat-app
